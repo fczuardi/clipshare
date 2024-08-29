@@ -1,6 +1,6 @@
 {
   "name": "clipshare",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.2",
   "description": "",
   "main": "main.js",
   "scripts": {
@@ -48,7 +48,8 @@
     },
     "linux": {
       "target": "AppImage",
-      "category": "Utility"
+      "category": "Utility",
+      "publish": ["github"]
     },
     "files": [
       ".env",
