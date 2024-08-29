@@ -49,6 +49,7 @@
     "linux": {
       "target": "AppImage",
       "category": "Utility"
+      "publish": ["github"]
     },
     "files": [
       ".env",
